@@ -1,47 +1,58 @@
-export default function MozalagoHome() {
-  return (
-    <main className="min-h-screen bg-white text-gray-800 p-6 md:p-12">
-      <section className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Mozalago Ventures</h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto">
-          Empowering exceptional ventures in Madagascar and beyond through strategic investments, operational support, and cultural insight.
-        </p>
-      </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mozalago Ventures</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 800px;
+      background: white;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mozalago Ventures</h1>
+    <p>
+      Mozalago Ventures is a trusted platform for resilient and ethical investment facilitation across Africa and beyond.
+      We specialize in high-impact ventures, tailored project incubation, and trusted business intermediation.
+    </p>
+    <p>
+      We believe in connecting vision with opportunity—bridging local realities with international standards to deliver sustainable value.
+    </p>
+    <footer>
+      &copy; 2025 Mozalago Ventures. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
 
-      <section className="grid md:grid-cols-2 gap-8 mb-16">
-        <div>
-          <h2 className="text-2xl font-semibold mb-2">What We Do</h2>
-          <p>
-            Mozalago Ventures is a privately owned company based in Madagascar. We specialize in the development and management of short-term rental properties, boutique hospitality concepts, and local service ventures. Our aim is to create value through impactful, locally grounded, and resilient business models.
-          </p>
-        </div>
-        <div>
-          <h2 className="text-2xl font-semibold mb-2">Our Philosophy</h2>
-          <p>
-            We believe in conscious entrepreneurship. Our approach prioritizes sustainability, cultural sensitivity, and long-term impact over short-term gains. We act as an anchor for investors and project developers looking to navigate the Malagasy business landscape with trust, transparency, and tailored support.
-          </p>
-        </div>
-      </section>
-
-      <section className="mb-16">
-        <h2 className="text-2xl font-semibold text-center mb-6">Flagship Project</h2>
-        <div className="bg-gray-100 rounded-2xl p-6 shadow-md">
-          <h3 className="text-xl font-semibold mb-2">Villa Kitoko</h3>
-          <p>
-            Located on the remote southwest coast of Madagascar, Villa Kitoko is an eco-designed beachfront retreat operated by Mozalago. The villa blends Afro-chic aesthetics with natural materials, providing a premium hospitality experience fully integrated with local ecosystems and communities.
-          </p>
-          <p className="mt-2">
-            Visit: <a href="https://www.villakitoko.com" className="text-blue-600 hover:underline" target="_blank">www.villakitoko.com</a>
-          </p>
-        </div>
-      </section>
-
-      <section className="text-center">
-        <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
-        <p>
-          📧 Email: <a href="mailto:contact@mozalago.com" className="text-blue-600 hover:underline">contact@mozalago.com</a>
-        </p>
-      </section>
-    </main>
-  );
-}
